@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 int tong(int n){
 	if(n==1) return 1;
 	return tong(n-1)+n;
