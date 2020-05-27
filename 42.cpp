@@ -5,7 +5,6 @@ int tong(int n){
 	return tong(n-1)+n;
 }
 int main(){
-	printf("sai roi");
 	int n;
 	scanf("%d",&n);
 	for(int i=n;i>=0;i--){
